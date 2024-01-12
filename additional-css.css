@@ -1,0 +1,50 @@
+/* body {
+background-color:#ffffff !important
+} */
+.gradient-text1 {
+    background: linear-gradient(45deg, #FF8C00, #FFD700);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+gradient-text1 {
+    background: linear-gradient(45deg, #FF8C00, #FFD700);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.woocommerce li.product-category{
+	display:flex; !important
+	justify-content: center;
+}
+
+/* Make category images round */
+.woocommerce-shop .product-category img {
+    
+    border-radius: 50%;
+    width: 180px !important;
+    height: 180px !important;
+}
+.home .product-category img {
+    border-radius: 50%;
+    width: 100px !important;
+    height: 100px !important;
+}
+.product-category .count {
+    display: none;
+}
+
+/* Center category name under the image */
+.product-category {
+    text-align: center;
+}
+
+/* Style for the SALE tag on the SHOP menu item */
+.menu-item.sale-tag a::before {
+    content: "SALE";
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-left: 5px;
+	margin-right: 10px;
+    font-weight: bold;
+}
